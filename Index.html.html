@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <title>Chica Indiscreta</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+            color: wheat;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; 
+            margin: 20px;
+            border: 5px solid goldenrod;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        header, footer {
+            text-align: center;
+        }
+
+        h1 {
+            color: goldenrod;
+            font-family: cursive;
+            margin: 0;
+        }
+
+        h2 {
+            color: cornsilk;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        p {
+            color: wheat;
+        }
+
+
+        #parrafo1 {
+            width: auto;
+            height: auto;
+            overflow: auto;
+            margin: 20px auto;
+            padding: 10px;
+        }
+
+        #texto9 {
+            width: 300px;
+            margin: 20px auto;
+            padding: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            color: rgb(238, 224, 211);
+        }
+
+        th, td {
+            border: 1px solid goldenrod;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: goldenrod;
+            color: black;
+        }
+
+        tr:nth-child(even) {
+            background-color: rgba(22, 21, 21, 0.5);
+        }
+
+        tr:hover {
+            background-color: rgba(22, 21, 21, 0.8);
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+
+        footer {
+            color: beige;
+            font-family: monospace;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.7);
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg" style="background-color: goldenrod;">
+        <a class="navbar-brand" href="#uno" style="color: black;">Personajes Principales</a>
+        <a class="navbar-brand" href="#quien" style="color: black;">¿Quién es chica Indiscreta?</a>
+        <a class="navbar-brand" href="#otros" style="color: black;">Otros</a>
+        <a class="navbar-brand" href="https://www.wikipedia.org/" target="_blank" style="color: black;">Más sobre Gossip Girl</a>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>Gossip Girl</h1>
+        </header>
+
+        <section>
+            <article>
+                <div id="parrafo1">
+                    <p class="grupo1">La trama principal de la serie se basa en Chica Indiscreta, el cual es un blog en Internet muy conocido, 
+                        en donde se narra día a día chismes, conflictos amorosos, familiares y económicos de un grupo de jóvenes 
+                        multimillonarios de la elite de Manhattan. La serie inicia con el regreso de la «it girl» del Upper East Side, Serena van der Woodsen, de un internado de Cornwall, Connecticut. A su regreso, Blair Waldorf, su mejor amiga, 
+                        no la recibe de buena manera por haberse ido sin despedirse. La historia también sigue a Chuck Bass, el chico malo del Upper East Side; a Nate Archibald,
+                        amigo de Chuck y novio de Blair por varios años; a Dan Humphrey, a la mejor amiga de Dan, Vanessa Abrams, y a su hermana menor, 
+                        Jenny Humphrey.</p>
+                </div>
+                
+                <div id="texto9">
+                    <img src="imagen1.jfif" class="img-fluid" alt="Imagen de Gossip Girl">
+                </div>
+            </article>
+        </section>
+
+        <aside>
+            <p class="grupo2">En las siguientes semanas se estarán contando los siguientes temas:</p>
+            <h2 id="uno">Personajes Principales</h2>
+            <table class="table table-hover" style="background-color: #000000; color: wheat;">
+                <thead style="background-color: goldenrod; color: black;">
+                    <tr>
+                        <th>Nombre de los personajes</th>
+                        <th>¿Quiénes son?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Serena Van Der Woodsen</td>
+                        <td>El personaje principal quien a menudo se le describe como la chica más linda de Nueva York con una elegancia heredada de sus padres.</td>
+                    </tr>
+                    <tr>
+                        <td>Blair Waldorf</td>
+                        <td>Manipuladora, inteligente y reina del drama, quien a pesar de ser un tanto sensible y frágil ante su amor verdadero Chuck Bass, tiende a ser controladora además de ser dominante ante los demás.</td>
+                    </tr>
+                    <tr>
+                        <td>Nate Archibald</td>
+                        <td>Introvertido, buen amigo, adinerado y un tanto tedioso.</td>
+                    </tr>
+                    <tr>
+                        <td>Chuck Bass</td>
+                        <td>Joven adinerado, atractivo, problemático además de ser un perdido enamorado de la perfecta Blair Waldorf quien a medida que pasa el tiempo se abre más con el público y deja a un lado su promiscuidad.</td>
+                    </tr>
+                    <tr>
+                        <td>Daniel Humphrey</td>
+                        <td>Un tanto intrigador, idealista con altos estándares a pesar de ser de bajos recursos y quien resulta ser más mentiroso y controlador que toda la elite neoyorquina.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2 id="quien">¿Quién es Chica Indiscreta?</h2>
+            <p class="grupo1">Chica Indiscreta es en realidad Dan Humphrey. Dan, quien comienza como un joven de clase trabajadora en Brooklyn, utiliza el pseudónimo de Chica Indiscreta para publicar chismes y secretos sobre la élite de Manhattan en su blog. A lo largo de la serie, se muestra que Dan está motivado por una mezcla de envidia, deseo de aceptación y, a veces, venganza. <br>La revelación de la identidad de Chica Indiscreta causa una gran sorpresa entre los personajes principales de la serie, sobretodo en el personaje de Serena, quien es la principal "it girl" de la serie, se siente traicionada y confundida. Ella siempre había considerado a Dan como un amigo cercano, y su descubrimiento de que él ha estado detrás de los chismes que han afectado su vida es una gran decepción para ella.</p>
+
+            <h2 id="otros">Otros</h2>
+            <div class="card text-dark bg-warning mb-3">
+                <div class="card-header">Información Adicional</div>
+                <div class="card-body">
+                    <h5 class="card-title">Curiosidades de Gossip Girl</h5>
+                    <p class="card-text">La serie "Gossip Girl" está basada en la serie de libros del mismo nombre escritos por Cecily von Ziegesar. El show se emitió de 2007 a 2012 y rápidamente se convirtió en un fenómeno cultural.</p>
+                    <p class="card-text">La voz de "Gossip Girl" es interpretada por Kristen Bell, conocida por sus papeles en "Veronica Mars" y "The Good Place".</p>
+                    <p class="card-text">La serie fue filmada en varias locaciones icónicas de Nueva York, incluyendo el Metropolitan Museum of Art y el Empire Hotel.</p>
+                </div>
+            </div>
+        </aside>
+
+        <footer>
+            <p>Isabella Pabon Londoño <br> Google <br> Bellapalon@gmail.com <br> Skolmi.</p>
+        </footer>
+        <img src="mi foto.jfif" class="img-fluid" width="300" alt="Mi foto">
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
